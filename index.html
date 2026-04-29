@@ -1,63 +1,114 @@
-<!DOCTYPE html>ad>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <
-<html lang="en">
-<hetitle>My Personal Page</title>
+    <title>My Business Page</title>
+
     <style>
         body {
+            margin: 0;
             font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #030202;
-            padding: 50px;
+            background: #0a0a0a;
+            color: #fff;
         }
-        .card {
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            max-width: 400px;
+
+        .container {
+            max-width: 900px;
             margin: auto;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            padding: 40px 20px;
+            text-align: center;
         }
+
         img {
-            width: 120px;
+            width: 180px;
+            height: 180px;
             border-radius: 50%;
+            border: 4px solid #fff;
+            object-fit: cover;
         }
+
+        h1 {
+            margin-top: 15px;
+            font-size: 28px;
+        }
+
+        .intro {
+            margin-top: 20px;
+            font-size: 16px;
+            line-height: 1.6;
+            color: #ccc;
+        }
+
+        .buttons {
+            margin-top: 30px;
+        }
+
         .btn {
             display: inline-block;
-            margin-top: 15px;
-            padding: 10px 20px;
-            background: #25D366;
-            color: white;
+            margin: 10px;
+            padding: 12px 20px;
             text-decoration: none;
-            border-radius: 5px;
+            color: #fff;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: 0.3s;
         }
+
+        .whatsapp {
+            background-color: #25D366;
+        }
+
+        .tiktok {
+            background-color: #ff0050;
+        }
+
         .btn:hover {
-            background: #1ebe5d;
+            transform: scale(1.05);
+            opacity: 0.9;
         }
-         .tiktok-btn {
-            background-color: #010e0f;
-            color: white;
+
+        footer {
+            margin-top: 40px;
+            font-size: 14px;
+            color: #777;
         }
-     </style>
+    </style>
 </head>
 <body>
 
-<div class="card">
-    <img src="Milly88.jpeg" alt="My Photo">
-    <h1>Freelings Web Developmet</h1>
-    <p>My name is Milly Ojima, i am a web enthusiast. I love building simple and useful things.</p>
+    <div class="container">
 
-    <a class="btn" href="https://wa.me/2349022923824" target="_blank">
-        Chat with me on WhatsApp
-    </a>
+        <!-- Profile Image -->
+        <img src="your-image.jpg" alt="My Photo">
 
-    <a class="btn" href="https://www.tiktok.com/@yourusername" target="_blank" class="tiktok-btn">
-  Follow me on TikTok
-</a>
+        <!-- Name -->
+        <h1>Your Name / Business Name</h1>
 
+        <!-- Business Introduction -->
+        <p class="intro">
+            Hi, I’m a professional web developer and video editor.  
+            I create modern websites, edit high-quality videos, and help businesses grow online.  
+            Let’s work together to bring your ideas to life.
+        </p>
 
-</div>
+        <!-- Buttons -->
+        <div class="buttons">
+            <a href="https://wa.me/234XXXXXXXXXX" target="_blank" class="btn whatsapp">
+                Chat me on WhatsApp
+            </a>
+
+            <a href="https://www.tiktok.com/@yourusername" target="_blank" class="btn tiktok">
+                Follow me on TikTok
+            </a>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            © 2026 Your Name. All rights reserved.
+        </footer>
+
+    </div>
 
 </body>
 </html>
